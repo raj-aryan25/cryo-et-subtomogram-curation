@@ -1,0 +1,32 @@
+# Dataset files are not redistributed; only the README is tracked.
+data/*
+!data/README.md
+
+# Local-only working files and archived logs
+_local/
+working/
+logs/
+.agents/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Arrays, checkpoints and other generated artifacts
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
