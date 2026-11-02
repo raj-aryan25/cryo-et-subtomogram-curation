@@ -98,19 +98,14 @@ See [`data/README.md`](data/README.md) for the expected files, shapes, and layou
 ### Dataset provenance
 
 This project was built for the **Project Eris** challenge *Confidence-Aware Subtomogram
-Curation under a Missing Wedge* on [Shipd](https://shipd.ai/quests/eris). The challenge is
-closed, and its page is behind the platform. A public mirror of the challenge statement
-and metadata is available here:
+Curation under a Missing Wedge*. A public copy of the challenge statement and metadata is
+available here:
 [Sri-Karthik-Avala/Confidence-Aware-Subtomogram-Curation-Under-A-Missing-Wedge](https://github.com/Sri-Karthik-Avala/Confidence-Aware-Subtomogram-Curation-Under-A-Missing-Wedge).
-That repository is a solver's public copy, not an official dataset release.
 
 The dataset is **synthetic**. The challenge statement says the volumes were produced by a
-documented, deterministic forward model (`generate_subtomograms.py`, fixed master seed),
-and the public metadata lists the challenge creator as `arry`. No public dataset download
-page or standalone dataset licence was found. The challenge materials are platform work
-product, and Shipd's [Contributor Terms](https://shipd.ai/terms) assign work product to
-Shipd/Datacurve AI. The data is therefore not redistributed here, and the MIT licence on
-this repository does not apply to it.
+documented, deterministic forward model (`generate_subtomograms.py`, fixed master seed).
+No public dataset download page or standalone dataset licence was found. The data is not
+redistributed here, and the MIT licence on this repository does not apply to it.
 
 ## Research archive
 
